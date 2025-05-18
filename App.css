@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container-box{
+    display: flex;
+    padding: 10px;
+    justify-content: space-evenly;
+    align-items: center;
+    border: 2px solid rgba(0, 0, 0, 0.175);
+    border-radius: 10px;
+    width: 50%;
+    height: 80%;
+    background-color: blanchedalmond;
+    box-shadow: 0px 25px 50px -12px black;
+}
+
+.form{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+    width: 50%;
+    height: 80%;
+    background-color: rgba(202, 140, 45, 0.525) ;
+    border: 2px solid rgba(0, 0, 0, 0.068);
+    box-shadow: 0px 25px 50px -12px black;
+}
+#button{
+    border: 1px solid rgb(92, 58, 8);
+    background-color: rgb(92, 58, 8);
+    border-radius: 30px;
+    width: 70%;
+    height: 50px;
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+}
+#input-age{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 70%;
+    height: 30px;
+    border: 1px solid rgba(255, 255, 255, 0.656);
+}
+#input-gmail{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 70%;
+    height: 30px;
+    border: 1px solid rgba(255, 255, 255, 0.656);
+}
+#input-name{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 70%;
+    height: 30px;
+    border: 1px solid rgba(255, 255, 255, 0.656);
+}
